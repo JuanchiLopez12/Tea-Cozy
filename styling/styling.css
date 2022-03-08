@@ -1,0 +1,28 @@
+*{
+    font-size: 22px;
+}
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+/* Header */
+header{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    height: 69px;
+    border-bottom: 1px solid white;     
+    background-color: black;
+    opacity: 0.9;
+    position: absolute;
+    z-index: 2;
+}
+.sections{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.sections li{
+    margin: 10px; 
+}
