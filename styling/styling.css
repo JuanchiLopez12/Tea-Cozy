@@ -1,5 +1,6 @@
 *{
     font-size: 22px;
+    color: white;
 }
 body{
     margin: 0 auto;
@@ -14,14 +15,18 @@ header{
     border-bottom: 1px solid white;     
     background-color: black;
     opacity: 0.9;
-    position: absolute;
+    position: sticky;
     z-index: 2;
+}
+a{
+    text-decoration: none;
 }
 .sections{
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
+    list-style: none;
 }
 .sections li{
     margin: 10px; 
