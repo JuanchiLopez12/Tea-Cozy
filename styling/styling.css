@@ -5,6 +5,15 @@
 body{
     margin: 0 auto;
     padding: 0 auto;
+    background-color: black;
+    width: 100%;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 69px;
 }
 /* Header */
 header{
@@ -15,8 +24,9 @@ header{
     border-bottom: 1px solid white;     
     background-color: black;
     opacity: 0.9;
-    position: sticky;
+    position: fixed;
     z-index: 2;
+    width: inherit;
 }
 a{
     text-decoration: none;
@@ -30,4 +40,28 @@ a{
 }
 .sections li{
     margin: 10px; 
+}
+/* Our Mission section */
+.ourMission{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 90%;
+    height: 800px;
+}
+.ourMission img{
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+}
+.missionText{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+    width: 100%;
 }
