@@ -112,3 +112,15 @@ a{
     margin-left: 20px;
     margin-right: 20px;
 }
+/* Locations section */
+.locations{
+    margin-top: 20px;
+    background-image: url("../media/img-locations-background.jpg");
+    height: 500px;
+    max-width: 90%;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
