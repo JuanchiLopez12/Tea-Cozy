@@ -46,8 +46,8 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1200px;
-    width: 90%;
+    width: 1200px;
+    max-width: 90%;
     height: 800px;
 }
 .ourMission img{
@@ -64,4 +64,51 @@ a{
     z-index: 1;
     background-color: black;
     width: 100%;
+}
+.missionText h4{
+    margin: 0;
+    max-width: 90%;
+    max-height: 50px;
+}
+/* Tea of the Month section */
+.teaMonth{
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    max-width: 90%;
+    width: 1000px;
+}
+.teaImages{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+.teaImages li{
+    margin-top: 30px;
+}
+.imageAndInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 300px;
+    max-height: 200px;
+    align-items: center;
+}
+.imageAndInfo h4{
+    margin: 0;
+}
+
+.imageAndInfo img{
+    max-width: 300px;
+    max-height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
