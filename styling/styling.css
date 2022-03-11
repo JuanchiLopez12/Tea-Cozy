@@ -155,3 +155,8 @@ a{
     justify-items: center;
     text-align: center;
 }
+/* Footer section */
+footer{
+    float: left;
+    margin-left: 20px;
+}
