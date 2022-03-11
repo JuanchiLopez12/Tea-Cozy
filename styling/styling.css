@@ -1,6 +1,7 @@
 *{
     font-size: 22px;
-    color: white;
+    color: seashell;
+    font-family: Helvetica;
 }
 body{
     margin: 0 auto;
@@ -92,7 +93,9 @@ a{
     margin: 0;
 }
 .teaImages li{
-    margin-top: 30px;
+    margin-top: 1rem;
+    margin-bottom: 1rem; 
+
 }
 .imageAndInfo{
     display: flex;
@@ -109,8 +112,6 @@ a{
 .imageAndInfo img{
     max-width: 300px;
     max-height: 200px;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 /* Locations section */
 .locations{
@@ -123,6 +124,9 @@ a{
     height: 500px;
     max-width: 90%;
     width: 1200px;
+}
+.locations h4{
+    margin-bottom: 15px;
 }
 .addresses{
     display: flex; 
@@ -137,5 +141,10 @@ a{
     max-width: 300px;
     width: 30%;
     background-color: black;
+    margin-left: 20px;
     margin-right: 20px;
+    max-width: 25%;
+}
+.addresses h3{
+    max-width: 100%;
 }
